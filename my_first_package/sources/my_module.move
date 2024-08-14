@@ -12,6 +12,7 @@ module my_first_package::example {
         strength: u64,
     }
 
+
     public struct Forge has key {
         id: UID,
         swords_created: u64,
