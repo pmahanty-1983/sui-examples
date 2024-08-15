@@ -1,0 +1,20 @@
+[package]
+name = "crowd_fund"
+version = "0.0.1"
+edition = "2024.beta" 
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+SupraOracle = {local = "../testnet/supra_holder" }
+
+[addresses]
+crowd_fund = "0x0"
+sui = "0x2"
+
+
+
+
+
+
+
+
